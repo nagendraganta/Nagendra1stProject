@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "356064184484",
+    "project_id": "myappndb",
+    "storage_bucket": "myappndb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356064184484:android:794731e1406e861419fe31",
+        "android_client_info": {
+          "package_name": "com.nagendra.nagendra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAew9mdQ2DtACbzJBoETtfN5OUCZ-sxecY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

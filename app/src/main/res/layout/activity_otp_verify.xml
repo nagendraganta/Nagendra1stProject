@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F7FF"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- OTP Icon -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_phone"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/circle_background1"
+            android:padding="12dp"
+            android:elevation="6dp" />
+
+        <!-- OTP EditText with ID -->
+        <EditText
+            android:id="@+id/otpInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter OTP"
+            android:inputType="number"
+            android:drawableStart="@drawable/ic_password"
+            android:padding="14dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:background="@drawable/rounded_edittext"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Verify Button with ID -->
+        <Button
+            android:id="@+id/verifyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify OTP"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF69B4"
+            android:background="@drawable/rounded_button1"
+            android:padding="14dp"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

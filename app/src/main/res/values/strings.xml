@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Nagendra</string>
+    <string name="welcome_this_is_scrollable_content">Welcome! This is scrollable content...</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="wallet_0_00">Wallet: ₹0.00</string>
+    <string name="status_message_here">Status message here</string>
+    <string name="create_wallet">Create Wallet</string>
+</resources>

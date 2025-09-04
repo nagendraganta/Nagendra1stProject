@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rewardCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Reward Title -->
+        <TextView
+            android:id="@+id/tvRewardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reward: Install App"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Mobile Number -->
+        <TextView
+            android:id="@+id/tvRewardMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile: 9876543210"
+            android:textColor="#555555"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- UPI Id -->
+        <TextView
+            android:id="@+id/tvRewardUpi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPI: example@upi"
+            android:textColor="#555555"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp" />
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvRewardStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pending"
+            android:textColor="#FBC02D"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="6dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

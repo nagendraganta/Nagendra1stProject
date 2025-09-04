@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Trophy base -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M12,2 L15,8 H21 L17,12 L19,20 H5 L7,12 L3,8 H9 L12,2 Z"/>
+
+    <!-- Trophy detail -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M10,14 H14 V18 H10 V14 Z"/>
+</vector>

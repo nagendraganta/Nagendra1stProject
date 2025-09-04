@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Reward Logo (Bigger Size) -->
+        <ImageView
+            android:id="@+id/detailLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_reward_logo"
+            android:contentDescription="Reward Logo"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Reward Title -->
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reward Title"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Reward Amount -->
+        <TextView
+            android:id="@+id/detailAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+10 Coins"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Reward Description (Black Color) -->
+        <TextView
+            android:id="@+id/detailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="2dp"
+            android:ellipsize="none"
+            android:scrollHorizontally="false"
+            android:breakStrategy="simple"
+            android:inputType="textMultiLine"
+            android:singleLine="false"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Open Link Button -->
+        <Button
+            android:id="@+id/btnOpenLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Reward"
+            android:backgroundTint="@color/teal_200"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Completed Button -->
+        <Button
+            android:id="@+id/btnCompleted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fill the Form"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Form Layout (hidden initially) -->
+        <LinearLayout
+            android:id="@+id/formLayout"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etMobile"
+                android:hint="Enter Mobile"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etUpi"
+                android:hint="Enter UPI"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:text="Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green_500"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
